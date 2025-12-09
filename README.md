@@ -54,6 +54,8 @@ After the gpu drivers are installed, the machine will have to be rebooted.  Once
 ## Tips
 - Github CLI
   - The github-cli can be used to create gists as an easy way to share notebooks/files before/outside making a commit
+  - The easiest auth method for using this is to setup a personal access token in github for your account; giving it the appropriate permissions.
+    - Set the environment variable via: `export GH_TOKEN=<PersonalAccessToken>`
 - `scp` and `rsync`
   - These can be used to move files back and forth between the VM and local machine for things that you may not want committed but want to retain. Could also be used for putting data files up onto the VM to use for things like training, etc especially if they aren't in Blob Storage / network accessible
   - To use `scp` to copy files from VM to a local path `scp -r username@remote_ip:path/on/vm local/path`
