@@ -10,7 +10,7 @@ This is just a list of notes/scripts/tips for when setting up, and working with,
 - Obtain the public IP address for the machine
   - Set up the ssh agent config to provide the key, user, and set it for forwarding for the host IP
   ```
-  Host 172.171.196.70
+  Host vm_ip_address
     AddKeysToAgent yes
     User username
     IdentityFile ~/.ssh/id_ed12345
