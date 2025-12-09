@@ -1,7 +1,7 @@
 # azure_vm_setup
 A repo to house scripts, tools, etc for bootstrapping and working with Azure VMs. While this is geared more towards the Python ML/AI stack, maybe this could be useful for others.
 
-This is just a list of notes/scripts/tips for when setting up, and working with, a VM in Azure.
+This is just a list of notes/scripts/tips for when setting up, and working with, a [VM in Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/).
 
 
 ## Machine Setup
