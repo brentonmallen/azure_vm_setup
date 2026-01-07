@@ -6,13 +6,8 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 
 
-# --- install system drivers
-sudo apt install -y ubuntu-drivers-common
+# --- install system drivers (including nvidia)
 sudo ubuntu-drivers autoinstall
-
-# --- Install gpu drivers
-sudo ubuntu-drivers install --gpgpu
-
 
 # --- Install uv ---
 curl -LsSf https://astral.sh/uv/install.sh | sh
