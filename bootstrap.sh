@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # --- Basic system setup ---
-sudo add-apt-repository ppa:graphics-drivers/ppa  # add gpu drivers repo
+sudo add-apt-repository -y ppa:graphics-drivers/ppa  # add gpu drivers repo
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
