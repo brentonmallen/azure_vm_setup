@@ -32,6 +32,7 @@ Note: The script may need to be made executable via `chmod +x bootstrap.sh` on t
 
 After the gpu drivers are installed, the machine will have to be rebooted.  Once it's rebooted, reconnect.
 
+**IMPORTANT** Ensure `secure boot` has been disabled in the Security configuration settings. If it's enabled, the GPU won't be accessible.
 
 ## Development
 - Clone the repo of interest to the machine
